@@ -45,8 +45,10 @@ However, each combinination set may have over 100,000 solutions...
 so you may have a long time waiting for the result.
 
 ## Output format
-```json
+```json5
 [
+  // List of solutions
+  // Solution 1.
   [
     -36.0,  // Negative value of absolute difference
     -188785,  // Index of solution
@@ -63,9 +65,10 @@ so you may have a long time waiting for the result.
           0   // Destruction cell count
         ]
       },
-      ...
+      // ...more chips
     ]
-  ]
+  ],
+  // ...more solutions
 ]
 ```
 
